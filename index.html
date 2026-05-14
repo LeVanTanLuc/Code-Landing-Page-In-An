@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@400&display=swap" rel="stylesheet">
+    <title>Header OMedia - Thiết Kế & In Ấn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            font-family: 'SF Pro Display', 'SF Pro', 'Inter', sans-serif; background-color: #000; margin: 0;
+        }
+
+        /* Hiệu ứng hover cho các mục menu */
+        .nav-item {
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-item:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #91F800;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-item:hover:after {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+   <header class="w-full h-[89px] bg-black border-b border-white/10 flex items-center justify-center sticky top-0 z-50">
+    <div class="container max-w-[1400px] px-6 flex items-center justify-between w-full">
+
+        <!-- 1. BÊN TRÁI: LOGO -->
+        <a href="/" class="flex-shrink-0 z-10 relative">
+            <img src="/Code Landing Page In ẤN/image/Logo OMedia-inấn 1.png" alt="OMedia Logo" class="w-[40 0px] h-[50px] object-contain">
+        </a>
+
+        <!-- 2. Ở GIỮA: THANH MENU -->
+        <nav class="hidden lg:flex items-center gap-2 absolute left-1/2 transform -translate-x-1/2">
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Về OMedia</a>
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Bullet Time</a>
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">TVC & Phim</a>
+
+            <a href="#" class="px-4 py-2 text-[#91F800] text-[15px] font-semibold border-b-2 border-[#91F800]">
+                Thiết Kế & In Ấn
+            </a>
+
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Sự Kiện</a>
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Thiết Bị</a>
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Sành</a>
+            <a href="#" class="nav-item px-4 py-2 text-[#E6E6E6] text-[15px] font-normal hover:text-white transition-colors">Blog</a>
+        </nav>
+
+        <!-- 3. BÊN PHẢI: NÚT LIÊN HỆ & MENU MOBILE -->
+        <div class="flex items-center z-10 relative">
+            <!-- Nút liên hệ (ẩn trên mobile) -->
+            <div class="hidden md:block">
+                <button class="bg-[#91F800] text-black px-6 py-2 rounded-full font-bold text-sm hover:bg-[#a6ff2e] transition shadow-[0_0_15px_rgba(145,248,0,0.3)]">
+                    LIÊN HỆ
+                </button>
+            </div>
+
+            <!-- Nút Menu Mobile (hiển thị trên mobile) -->
+            <div class="lg:hidden text-white cursor-pointer ml-4">
+                <img src="/Code Landing Page In ẤN/image/P/package.svg" alt="icon" class="w-6 h-6 invert">
+            </div>
+        </div>
+
+    </div>
+</header>
+  <section class="relative w-full max-w-[1920px] mx-auto min-h-[983px] flex flex-col items-center justify-center shrink-0 overflow-hidden bg-[#101010]">
+    
+    <div class="absolute inset-0 z-0">
+        <img src="/Code Landing Page In ẤN/image/banner/image 197.png" 
+             alt="OMedia Mockup" 
+             class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+
+    <div class="relative z-10 container max-w-[1200px] px-4 md:px-6 flex flex-col items-center text-center">
+        
+        <!-- TIÊU ĐỀ H1 (Chuẩn 56px, Bold, Line-height 110%, Tracking -1.12px, Căn giữa) -->
+<h1 class="text-center text-[36px] md:text-[56px] font-bold leading-[110%] tracking-[-1.12px] uppercase mb-6" style="font-family: 'SF Pro', sans-serif;">
+    <!-- Dòng 1: Màu trắng -->
+    <span class="block text-white pb-2">
+        BAO BÌ ĐẸP CHƯA ĐỦ
+    </span>
+    <!-- Dòng 2: Gradient Trắng sang Xanh (#C6FF76) -->
+    <span class="block bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent">
+        BAO BÌ PHẢI BÁN ĐƯỢC HÀNG!
+    </span>
+</h1>
+
+      <p class="w-full max-w-[900px] shrink-0 mx-auto text-white text-center text-[20px] md:text-[32px] font-[510] leading-[125%] tracking-[-0.32px] mb-10 block" 
+   style="font-family: 'SF Pro', sans-serif; word-spacing: -0.05em;">
+    Giải pháp trọn gói từ thiết kế - sản xuất - chiến lược bao bì, giúp nâng tầm định vị sản phẩm và tăng chuyển đổi doanh số thực tế
+</p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+            
+        <!-- Nút Nhận tư vấn miễn phí -->
+<button onclick="document.getElementById('brand-section').scrollIntoView({ behavior: 'smooth' })"
+        class="flex h-[56px] w-fit items-center justify-center gap-[8px] px-8 rounded-[8px] bg-[#91F800] text-[#000000] font-bold shadow-[0_4px_4px_2px_rgba(0,0,0,0.25)] hover:bg-[#82df00] transition-all">
+    <span class="text-[22px] font-[590] leading-[130%] tracking-tight text-[#000000] font-['SF_Pro']">
+    Nhận tư vấn miễn phí
+</span>
+    
+    <!-- Vòng tròn màu đen -->
+   <div class="flex items-center justify-center w-[24px] h-[24px] bg-black rounded-full">
+        <!-- Icon mũi tên Chevron màu xanh OMedia -->
+        <svg class="w-[12px] h-[12px] text-[#91F800]" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    </div>
+</button>
+
+  <!-- Nút Xem các gói dịch vụ nền trắng theo image_1cba1b.png -->
+<button onclick="document.getElementById('pricing-section').scrollIntoView({ behavior: 'smooth' })"
+ class="flex h-[56px] w-fit items-center justify-center gap-[8px] px-8 rounded-[8px] bg-white border border-[#D1D1D1] text-[#000000] font-bold shadow-[0_4px_10px_rgba(0,0,0,0.1)] hover:bg-gray-50 transition-all">
+    <span class="text-[22px] font-[590] leading-[130%] tracking-tight text-[#000000] font-['SF_Pro']">
+   Xem các gói dịch vụ
+</span>
+    
+    <!-- Vòng tròn màu đen -->
+    <div class="flex items-center justify-center w-[24px] h-[24px] bg-black rounded-full">
+        <!-- Icon mũi tên Chevron màu trắng -->
+        <svg class="w-[12px] h-[12px] text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    </div>
+</button>
+        </div>
+    </div>
+</section>
+
+ <section class="py-20 bg-gradient-to-b from-[#000000] to-[#272727] overflow-hidden">
+   <div class="container mx-auto px-6 mb-16 text-center">
+    <!-- Dòng 1: 2.000+ thương hiệu (Hero/Headline - 80px) -->
+    <h2 class="font-['SF_Pro'] text-[40px] md:text-[80px] font-bold leading-[105%] tracking-[-3.2px] mb-2">
+        <span class="bg-gradient-to-r from-[#FFFFFF] to-[#C6FF76] bg-clip-text text-transparent inline-block">
+            2.000+ thương hiệu
+        </span>
+    </h2>
+
+    <!-- Dòng 2: Tin tưởng và đồng hành cùng OMedia (Heading/H1 - 56px) -->
+    <p class="font-['SF_Pro'] text-[28px] md:text-[56px] font-bold leading-[110%] tracking-[-1.12px] text-white">
+        Tin tưởng và đồng hành cùng OMedia
+    </p>
+</div>
+        <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#101010] to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#101010] to-transparent z-10 pointer-events-none"></div>
+
+        <div class="flex group">
+            
+            <div class="flex items-center gap-16 pr-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]">
+                <img src="image/logo tay do.png" alt="Taydo" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo monbase.png" alt="Monbase" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo olabs.png" alt="Labs" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo sol.png" alt="SOL" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo love leaf.png" alt="Love Leaf" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo itic.png" alt="TIC" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo tay do.png" alt="Taydo" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo monbase.png" alt="Monbase" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo olabs.png" alt="Labs" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo sol.png" alt="SOL" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo love leaf.png" alt="Love Leaf" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo itic.png" alt="TIC" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+            </div>
+
+            <div class="flex items-center gap-16 pr-16 shrink-0 animate-marquee group-hover:[animation-play-state:paused]" aria-hidden="true">
+                <img src="image/logo tay do.png" alt="Taydo" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo monbase.png" alt="Monbase" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo olabs.png" alt="Labs" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo sol.png" alt="SOL" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo love leaf.png" alt="Love Leaf" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo itic.png" alt="TIC" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo tay do.png" alt="Taydo" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo monbase.png" alt="Monbase" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo olabs.png" alt="Labs" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo sol.png" alt="SOL" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo love leaf.png" alt="Love Leaf" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+                <img src="image/logo itic.png" alt="TIC" class="h-12 md:h-16 w-auto shrink-0 opacity-70 hover:opacity-100 transition-all grayscale hover:grayscale-0">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <div id="toggle-section" class="py-24 bg-gradient-to-b from-[#262626] transition-all duration-700 ease-in-out">
+        <div class="container mx-auto px-6 text-center">
+
+            <div id="content-problem" class="block space-y-12">
+               <!-- Tiêu đề Bạn đang gặp vấn đề... chuẩn theo image_1c3616.png -->
+<h2 class="text-center font-['SF_Pro'] text-[32px] md:text-[56px] font-bold leading-[110%] tracking-[-1.12px] text-[#959595]">
+    Bạn đang gặp vấn đề <br class="hidden md:block"> với bao bì sản phẩm?
+</h2>
+
+                <!-- Container chuẩn 1380px -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-[1380px] mx-auto px-4">
+    
+    <!-- Thẻ 1 -->
+    <div class="flex flex-col items-center justify-center p-5 gap-4 h-[228px] rounded-[20px] border border-[#FF0000] bg-gradient-to-b from-[#3a0a0a] to-[#000000] text-center">
+        <div class="flex items-center justify-center rounded-[10px] bg-[#FFDCDC] w-[56px] h-[56px] shrink-0">
+            <img src="/Code Landing Page In ẤN/image/elements 3.svg" alt="Bao bì" class="w-8 h-8 object-contain">
+        </div>
+        <p class="text-white text-center font-['SF_Pro'] text-[24px] font-[590] leading-[130%] tracking-tight">
+            Bao bì đẹp nhưng<br>không bán được hàng
+        </p>
+    </div>
+
+    <!-- Thẻ 2 -->
+    <div class="flex flex-col items-center justify-center p-5 gap-4 h-[228px] rounded-[20px] border border-[#FF0000] bg-gradient-to-b from-[#3a0a0a] to-[#000000] text-center">
+        <div class="flex items-center justify-center rounded-[10px] bg-[#FFDCDC] w-[56px] h-[56px] shrink-0">
+            <img src="/Code Landing Page In ẤN/image/elements.svg" alt="Thiết kế" class="w-8 h-8 object-contain">
+        </div>
+        <p class="text-white text-center font-['SF_Pro'] text-[24px] font-[590] leading-[130%] tracking-tight">
+            Thiết kế mờ nhạt<br>không nổi bật
+        </p>
+    </div>
+
+    <!-- Thẻ 3 -->
+    <div class="flex flex-col items-center justify-center p-5 gap-4 h-[228px] rounded-[20px] border border-[#FF0000] bg-gradient-to-b from-[#3a0a0a] to-[#000000] text-center">
+        <div class="flex items-center justify-center rounded-[10px] bg-[#FFDCDC] w-[56px] h-[56px] shrink-0">
+            <img src="/Code Landing Page In ẤN/image/elements 2.svg" alt="In ấn" class="w-8 h-8 object-contain">
+        </div>
+        <p class="text-white text-center font-['SF_Pro'] text-[24px] font-[590] leading-[130%] tracking-tight">
+            In sai màu, sai chất<br>liệu, giảm uy tín
+        </p>
+    </div>
+
+    <!-- Thẻ 4 -->
+    <div class="flex flex-col items-center justify-center p-5 gap-4 h-[228px] rounded-[20px] border border-[#FF0000] bg-gradient-to-b from-[#3a0a0a] to-[#000000] text-center">
+        <div class="flex items-center justify-center rounded-[10px] bg-[#FFDCDC] w-[56px] h-[56px] shrink-0">
+            <img src="/Code Landing Page In ẤN/image/elements 1.svg" alt="Đồng bộ" class="w-8 h-8 object-contain">
+        </div>
+        <p class="text-white text-center font-['SF_Pro'] text-[24px] font-[590] leading-[130%] tracking-tight">
+            Làm việc nhiều bên,<br>thiếu đồng bộ
+        </p>
+    </div>
+</div>
+</div>
+                <!-- Khối thông tin 80% doanh nghiệp chuẩn theo image_1c3276.png -->
+<div class="flex flex-col items-center self-stretch mt-[50px] space-y-2">
+    <!-- Dòng 1: 80% doanh nghiệp (Heading/H2 - Semibold - White) -->
+    <h3 class="text-center font-['SF_Pro'] text-[24px] md:text-[40px] font-[590] leading-[120%] tracking-[-0.4px] text-[#FFFFFF]">
+        80% doanh nghiệp
+    </h3>
+    
+    <!-- Dòng 2: Mô tả (Heading/H2 - Semibold - Gray) -->
+    <p class="text-center font-['SF_Pro'] text-[24px] md:text-[40px] font-[590] leading-[120%] tracking-[-0.4px] text-[#959595]">
+        đang lãng phí ngân sách vì bao bì thiếu chiến lược...
+    </p>
+</div>
+            </div>
+
+            <!-- Thêm class bg-white và text-center để làm nền trắng toàn bộ -->
+<div id="content-solution" class="hidden space-y-12 bg-white py-16 text-center">
+    
+    <!-- Tiêu đề OMedia cung cấp giải pháp trọn gói -->
+    <h2 class="text-center font-['SF_Pro'] text-[32px] md:text-[56px] font-bold leading-[110%] tracking-[-1.12px] text-[#000000]">
+        <span class="text-[#91F800]">OMedia</span> cung cấp <br class="hidden md:block"> giải pháp trọn gói
+    </h2>
+
+    <!-- Grid chứa 4 thẻ dịch vụ -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto px-4">
+        
+        <!-- Thẻ 1 -->
+        <div class="bg-[#E6FFB3] border border-[#C6FF76] p-8 rounded-[20px] flex flex-col items-center gap-4 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-14 h-14 bg-[#91F800] rounded-xl flex items-center justify-center text-black">
+                <i class="fas fa-chart-line text-2xl"></i>
+            </div>
+            <p class="text-black text-[16px] font-bold leading-tight">Xây dựng chiến lược<br>bao bì tăng chuyển đổi</p>
+        </div>
+
+        <!-- Thẻ 2 -->
+        <div class="bg-[#E6FFB3] border border-[#C6FF76] p-8 rounded-[20px] flex flex-col items-center gap-4 shadow-sm">
+            <div class="w-14 h-14 bg-[#91F800] rounded-xl flex items-center justify-center text-black">
+                <i class="fas fa-award text-2xl"></i>
+            </div>
+            <p class="text-black text-[16px] font-bold leading-tight">Thiết kế nổi bật, bám sát<br>định vị thương hiệu</p>
+        </div>
+
+        <!-- Thẻ 3 -->
+        <div class="bg-[#E6FFB3] border border-[#C6FF76] p-8 rounded-[20px] flex flex-col items-center gap-4 shadow-sm">
+            <div class="w-14 h-14 bg-[#91F800] rounded-xl flex items-center justify-center text-black">
+                <i class="fas fa-print text-2xl"></i>
+            </div>
+            <p class="text-black text-[16px] font-bold leading-tight">In ấn chuẩn màu, kiểm<br>soát chất lượng chặt chẽ</p>
+        </div>
+
+        <!-- Thẻ 4 -->
+        <div class="bg-[#E6FFB3] border border-[#C6FF76] p-8 rounded-[20px] flex flex-col items-center gap-4 shadow-sm">
+            <div class="w-14 h-14 bg-[#91F800] rounded-xl flex items-center justify-center text-black">
+                <i class="fas fa-user-check text-2xl"></i>
+            </div>
+            <p class="text-black text-[16px] font-bold leading-tight">Một đầu mối triển khai,<br>đảm bảo đồng bộ</p>
+        </div>
+    </div>
+
+    <!-- Khối text OMedia giúp bao bì... (Theo image_ea5b98.png trước đó) -->
+    <div class="flex flex-col items-center space-y-1">
+        <h3 class="font-['SF_Pro'] text-[24px] md:text-[40px] font-[590] leading-[120%] tracking-[-0.4px] text-[#000000]">
+            OMedia giúp bao bì không chỉ đẹp
+        </h3>
+        <p class="font-['SF_Pro'] text-[24px] md:text-[40px] font-[590] leading-[120%] tracking-[-0.4px] text-[#242424]">
+            mà còn bán được hàng!
+        </p>
+    </div>
+</div>
+
+               <!-- Cấu trúc cho nền sáng chuẩn theo image_ea5b98.png -->
+
+            </div>
+
+            <div class="mt-16 flex flex-col items-center gap-4">
+                <!-- Nút Toggle được chỉnh kích thước rộng 180px -->
+<button id="toggle-btn"
+        class="flex items-center justify-start w-[180px] h-[80px] p-[10px] bg-[#242424] border border-[#FFF] rounded-[60px] transition-all duration-500 relative mt-[-100px] overflow-hidden">
+    
+    <!-- Vòng tròn bên trong to ra (khoảng 60x60px để khớp với padding) -->
+    <div id="toggle-circle"
+         class="w-[60px] h-[60px] bg-gray-500 rounded-full transition-all duration-500 transform translate-x-0 flex items-center justify-center shrink-0">
+        
+        <!-- SVG Icon được chỉnh tỉ lệ 100% theo vòng tròn -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 80 80" fill="none">
+            <rect width="80" height="80" rx="40" fill="#959595"/>
+            <rect width="80" height="80" rx="40" fill="black" fill-opacity="0.2"/>
+            <path d="M71 39.5243C71 55.8034 59.81 69 46.0283 69L44.2979 69C47.9593 67.584 51.2145 65.258 54.0119 62.2752C54.4696 61.7691 54.8759 61.263 55.3336 60.7084C56.2489 59.5454 57.1128 58.2802 57.8765 56.9664C58.5887 55.7012 59.2495 54.3363 59.8589 52.9228C61.0288 50.0396 61.8927 46.8549 62.2501 43.5193L62.2501 43.3685C62.4018 42.1544 62.5047 40.8917 62.5047 39.6776C62.5047 38.6655 62.4533 37.707 62.353 36.6948C61.2345 26.228 54.2151 18.3428 46.0257 18.3428C44.1436 18.3428 42.3129 18.7466 40.5824 19.5057C34.0207 22.4886 29.5956 30.5783 29.5956 39.6776C29.5956 47.9693 33.3085 55.4532 38.9549 58.9396C38.9034 58.9396 38.852 58.9907 38.7517 58.9907C38.3969 59.093 38.0395 59.1926 37.6333 59.2438C37.5304 59.2438 37.4301 59.2949 37.3273 59.2949C36.8182 59.346 36.3605 59.3971 35.8514 59.3971C27.968 59.3971 21.4577 51.1566 21 40.7409L21 39.5268C21 25.4714 29.4439 13.3381 41.089 10.5572C42.6651 10.2045 44.3441 10 46.0231 10C59.8049 9.99999 70.9949 23.2477 70.9949 39.5268L71 39.5243Z" fill="black"/>
+            <path d="M59.9974 39.523C59.9974 40.7882 59.9461 41.9996 59.7945 43.2137L59.7945 43.2648C58.4228 55.8525 50.4444 65.9636 39.9281 68.4428C38.3021 68.8466 36.6761 69 34.9987 69C21.2279 69 10 55.804 10 39.5256C10 23.2471 21.2278 10 34.9987 10L36.7249 10C36.319 10.1508 35.8618 10.3527 35.4534 10.5572C34.8446 10.8102 34.2846 11.1144 33.6758 11.4671C30.9324 13.0338 28.4434 15.1066 26.3088 17.6344C25.8002 18.1916 25.3429 18.7973 24.9371 19.4031C24.4798 20.0088 24.074 20.6682 23.6656 21.274C23.2597 21.9309 22.8513 22.5877 22.5482 23.2957C22.1423 24.0037 21.7853 24.7117 21.531 25.4196C21.1765 26.1276 20.9222 26.8356 20.6679 27.5436C20.4136 28.2004 20.2106 28.8573 20.0077 29.5653C19.0932 32.6988 18.5846 36.0879 18.5846 39.5256L18.5846 40.7907C19.0419 52.1158 26.2574 61.0129 35.0475 61.0129C36.8765 61.0129 38.7054 60.609 40.4855 59.7988C47.0409 56.8161 51.4616 48.7267 51.4616 39.6763C51.4616 31.3851 47.7524 23.9014 42.1629 20.3641C42.6715 20.2133 43.2289 20.1111 43.7375 20.0599C44.2461 19.9603 44.7033 19.9603 45.2119 19.9603C52.5276 19.9603 58.88 27.1909 59.8973 36.7959L59.8973 36.9467C59.9486 37.8054 60 38.6642 60 39.5255L59.9974 39.523Z" fill="black"/>
+        </svg>
+    </div>
+</button> 
+               <p id="toggle-label" 
+   class="text-white text-center font-['SF_Pro'] text-[14px] font-[400] leading-[140%] tracking-[-0.224px]">
+    Xem ngay giải pháp →
+</p>
+            </div>   
+          <div class="mt-[140px] text-center flex flex-col items-center">
+    <!-- Dòng 1: Dịch vụ thiết kế & in ấn (SF Pro - 40px - Semibold) -->
+    <div class="self-stretch text-[#91F800] text-center font-['SF_Pro'] text-[24px] md:text-[40px] font-[590] leading-[120%] tracking-[-0.4px]">
+        Dịch vụ thiết kế & in ấn
+    </div>
+
+    <!-- Dòng 2: Toàn diện cho hành trình tăng trưởng (SF Pro - 80px - Bold) -->
+    <div class="mt-2 text-white text-center font-['SF_Pro'] text-[42px] md:text-[80px] font-[700] leading-[105%] tracking-[-3.2px]">
+        Toàn diện cho hành trình tăng trưởng
+    </div>
+</div>  
+    </div>  
+<!-- Thiết kế bao bì -->
+<div class="relative w-full min-h-screen overflow-hidden font-['SF_Pro',sans-serif] text-white flex items-center group">
+  <div id="sliderTrack" class="flex w-full h-full transition-transform duration-700 ease-in-out">
+
+    <!-- SLIDE 1: THIẾT KẾ BAO BÌ -->
+    <div class="w-full h-full flex-shrink-0 flex flex-col items-center justify-center p-8">
+      <div class="max-w-[1440px] w-full flex flex-col lg:flex-row items-center justify-around gap-12">
+        <div class="flex flex-col items-start text-left">
+          <h3 class="text-[#FFF] font-['SF_Pro'] text-[28px] font-[590] leading-[130%] uppercase mb-4 self-stretch">
+            THIẾT KẾ BAO BÌ
+          </h3>
+          <h1 class="font-['SF_Pro'] text-[56px] font-[700] leading-[110%] tracking-[-1.12px] mb-12">
+            <span class="text-white block">Không chỉ đẹp</span>
+            <span style="background: linear-gradient(90deg, #FFF 0%, #C6FF76 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;" class="block">
+              mà phải đúng chiến lược
+            </span>
+          </h1>
+          <ul class="flex flex-col gap-6 text-[#959595] font-['SF_Pro'] text-[28px] font-[590] leading-[130%]">
+            <li class="flex items-center gap-5">
+              <img src="/Code Landing Page In Ấn/image/P/package.svg" alt="icon" class="w-8 h-8 opacity-70 invert">
+              Thiết kế hộp sản phẩm, nhãn mác, túi bao bì các loại
+            </li>
+            <li class="flex items-center gap-5">
+              <img src="/Code Landing Page In Ấn/image/P/package.svg" alt="icon" class="w-8 h-8 opacity-70 invert">
+              Phát triển bao bì cho FMCG, mỹ phẩm, thực phẩm
+            </li>
+            <li class="flex items-center gap-5">
+              <img src="/Code Landing Page In Ấn/image/P/package.svg" alt="icon" class="w-8 h-8 opacity-70 invert">
+              Cải tiến bao bì cũ theo định vị mới
+            </li>
+            <li class="flex items-center gap-5">
+              <img src="/Code Landing Page In Ấn/image/P/package.svg" alt="icon" class="w-8 h-8 opacity-70 invert">
+              Đảm bảo nhận diện thương hiệu rõ ràng, nổi bật trên kệ
+            </li>
+          </ul>
+        </div>
+        <div class="relative flex-shrink-0">
+          <div class="w-[600px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl border border-white/5" style="background: url('/Code Landing Page In Ấn/image/banner/ASSET_MMS_161585042 1.png') 50% / cover no-repeat;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: SẢN XUẤT & IN ẤN -->
+    <div class="w-full h-full flex-shrink-0 flex flex-col items-center justify-center p-8">
+      <div class="max-w-[1440px] w-full flex flex-col lg:flex-row items-center justify-around gap-12">
+        <div class="relative flex-shrink-0">
+          <div class="w-[600px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl border border-white/5" style="background: url('/Code Landing Page In Ấn/image/banner/Frame 5.png') 50% / cover no-repeat;"></div>
+        </div>
+        <div class="flex flex-col items-start text-left">
+          <h3 class="text-[#FFF] font-['SF_Pro'] text-[28px] font-[590] leading-[130%] uppercase mb-4 self-stretch">
+            SẢN XUẤT & IN ẤN
+          </h3>
+          <h1 class="font-['SF_Pro'] text-[56px] font-[700] leading-[110%] tracking-[-1.12px] mb-12">
+            <span class="text-white block">Chuẩn màu, kiểm soát</span>
+            <span style="background: linear-gradient(90deg, #FFF 0%, #C6FF76 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;" class="block">
+              chất lượng đến từng chi tiết
+            </span>
+          </h1>
+          <ul class="flex flex-col gap-6 text-[#959595] font-['SF_Pro'] text-[28px] font-[590] leading-[130%]">
+            <li class="flex items-center gap-5">
+              <div class="w-8 h-8 opacity-70 text-[#959595]"><svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg></div>
+              In offset, digital, flexo; tuỳ theo nhu cầu sản phẩm
+            </li>
+            <li class="flex items-center gap-5">
+              <div class="w-8 h-8 opacity-70 text-[#959595]"><svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg></div>
+              Sản xuất hộp cứng, hộp mềm, túi giấy, túi kraft,...
+            </li>
+             <li class="flex items-center gap-5">
+              <div class="w-8 h-8 opacity-70 text-[#959595]"><svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg></div>
+              In tem nhãn, tem chống giả
+            </li>
+             <li class="flex items-center gap-5">
+              <div class="w-8 h-8 opacity-70 text-[#959595]"><svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg></div>
+              Gia công hoàn thiện: ép kim, dập nổi, UV,.... 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3: TƯ VẤN CHIẾN LƯỢC -->
+    <div class="w-full h-full flex-shrink-0 flex flex-col items-center justify-center p-8">
+      <div class="max-w-[1440px] w-full flex flex-col lg:flex-row items-center justify-around gap-12">
+        <div class="flex flex-col items-start text-left">
+          <h3 class="text-[#FFF] font-['SF_Pro'] text-[28px] font-[590] leading-[130%] uppercase mb-4 self-stretch">
+            TƯ VẤN CHIẾN LƯỢC
+          </h3>
+          <h1 class="font-['SF_Pro'] text-[56px] font-[700] leading-[110%] tracking-[-1.12px] mb-12">
+            <span class="text-white block">Tối ưu từ chiến lược đến</span>
+            <span style="background: linear-gradient(90deg, #FFF 0%, #C6FF76 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;" class="block">
+              chi phí sản xuất
+            </span>
+          </h1>
+          <ul class="flex flex-col gap-6 text-[#959595] font-['SF_Pro'] text-[28px] font-[590] leading-[130%] max-w-[700px]">
+            <li class="flex items-start gap-5">
+              <div class="w-8 h-8 opacity-70 mt-1">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.6663 15.9997C22.6663 19.6815 19.6815 22.6663 15.9997 22.6663C12.3178 22.6663 9.33301 19.6815 9.33301 15.9997C9.33301 12.3178 12.3178 9.33301 15.9997 9.33301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M18.667 2.93371C17.8054 2.75881 16.9135 2.66699 16.0003 2.66699C8.63653 2.66699 2.66699 8.63653 2.66699 16.0003C2.66699 23.3641 8.63653 29.3337 16.0003 29.3337C23.3641 29.3337 29.3337 23.3641 29.3337 16.0003C29.3337 15.0871 29.2418 14.1953 29.067 13.3337" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.042 15.9499L22.1125 9.87931M26.3221 5.79266L25.5846 3.14314C25.4487 2.70665 24.9235 2.53271 24.5695 2.82199C22.6547 4.38675 20.5688 6.49438 22.2723 9.81876C25.7045 11.4192 27.6637 9.26096 29.1661 7.4469C29.465 7.08598 29.2847 6.5434 28.8345 6.41324L26.3221 5.79266Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Kiểm tra & đánh giá hiệu quả bao bì hiện tại
+            </li>
+            <li class="flex items-start gap-5">
+              <div class="w-8 h-8 opacity-70 mt-1">
+                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.6663 15.9997C22.6663 19.6815 19.6815 22.6663 15.9997 22.6663C12.3178 22.6663 9.33301 19.6815 9.33301 15.9997C9.33301 12.3178 12.3178 9.33301 15.9997 9.33301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M18.667 2.93371C17.8054 2.75881 16.9135 2.66699 16.0003 2.66699C8.63653 2.66699 2.66699 8.63653 2.66699 16.0003C2.66699 23.3641 8.63653 29.3337 16.0003 29.3337C23.3641 29.3337 29.3337 23.3641 29.3337 16.0003C29.3337 15.0871 29.2418 14.1953 29.067 13.3337" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.042 15.9499L22.1125 9.87931M26.3221 5.79266L25.5846 3.14314C25.4487 2.70665 24.9235 2.53271 24.5695 2.82199C22.6547 4.38675 20.5688 6.49438 22.2723 9.81876C25.7045 11.4192 27.6637 9.26096 29.1661 7.4469C29.465 7.08598 29.2847 6.5434 28.8345 6.41324L26.3221 5.79266Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Tư vấn định vị sản phẩm & thiết kế phù hợp
+            </li>
+            <li class="flex items-start gap-5">
+              <div class="w-8 h-8 opacity-70 mt-1">
+                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.6663 15.9997C22.6663 19.6815 19.6815 22.6663 15.9997 22.6663C12.3178 22.6663 9.33301 19.6815 9.33301 15.9997C9.33301 12.3178 12.3178 9.33301 15.9997 9.33301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M18.667 2.93371C17.8054 2.75881 16.9135 2.66699 16.0003 2.66699C8.63653 2.66699 2.66699 8.63653 2.66699 16.0003C2.66699 23.3641 8.63653 29.3337 16.0003 29.3337C23.3641 29.3337 29.3337 23.3641 29.3337 16.0003C29.3337 15.0871 29.2418 14.1953 29.067 13.3337" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.042 15.9499L22.1125 9.87931M26.3221 5.79266L25.5846 3.14314C25.4487 2.70665 24.9235 2.53271 24.5695 2.82199C22.6547 4.38675 20.5688 6.49438 22.2723 9.81876C25.7045 11.4192 27.6637 9.26096 29.1661 7.4469C29.465 7.08598 29.2847 6.5434 28.8345 6.41324L26.3221 5.79266Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Tối ưu chi phí sản xuất theo quy mô
+            </li>
+            <li class="flex items-start gap-5">
+              <div class="w-8 h-8 opacity-70 mt-1">
+                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.6663 15.9997C22.6663 19.6815 19.6815 22.6663 15.9997 22.6663C12.3178 22.6663 9.33301 19.6815 9.33301 15.9997C9.33301 12.3178 12.3178 9.33301 15.9997 9.33301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M18.667 2.93371C17.8054 2.75881 16.9135 2.66699 16.0003 2.66699C8.63653 2.66699 2.66699 8.63653 2.66699 16.0003C2.66699 23.3641 8.63653 29.3337 16.0003 29.3337C23.3641 29.3337 29.3337 23.3641 29.3337 16.0003C29.3337 15.0871 29.2418 14.1953 29.067 13.3337" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.042 15.9499L22.1125 9.87931M26.3221 5.79266L25.5846 3.14314C25.4487 2.70665 24.9235 2.53271 24.5695 2.82199C22.6547 4.38675 20.5688 6.49438 22.2723 9.81876C25.7045 11.4192 27.6637 9.26096 29.1661 7.4469C29.465 7.08598 29.2847 6.5434 28.8345 6.41324L26.3221 5.79266Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Nâng cấp trải nghiệm mở hộp (unboxing) của khách hàng
+            </li>
+            <li class="flex items-start gap-5">
+              <div class="w-8 h-8 opacity-70 mt-1">
+                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.6663 15.9997C22.6663 19.6815 19.6815 22.6663 15.9997 22.6663C12.3178 22.6663 9.33301 19.6815 9.33301 15.9997C9.33301 12.3178 12.3178 9.33301 15.9997 9.33301" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M18.667 2.93371C17.8054 2.75881 16.9135 2.66699 16.0003 2.66699C8.63653 2.66699 2.66699 8.63653 2.66699 16.0003C2.66699 23.3641 8.63653 29.3337 16.0003 29.3337C23.3641 29.3337 29.3337 23.3641 29.3337 16.0003C29.3337 15.0871 29.2418 14.1953 29.067 13.3337" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.042 15.9499L22.1125 9.87931M26.3221 5.79266L25.5846 3.14314C25.4487 2.70665 24.9235 2.53271 24.5695 2.82199C22.6547 4.38675 20.5688 6.49438 22.2723 9.81876C25.7045 11.4192 27.6637 9.26096 29.1661 7.4469C29.465 7.08598 29.2847 6.5434 28.8345 6.41324L26.3221 5.79266Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              Định hướng bao bì từ kênh bán trực tuyến (online)
+              đến tại cửa hàng (offline)
+            </li>
+          </ul>
+        </div>
+        <div class="relative flex-shrink-0">
+          <div class="w-[600px] h-[450px] rounded-[40px] overflow-hidden shadow-2xl border border-white/5" style="background: url('/Code Landing Page In Ấn/image/banner/Frame 6.png') 50% / cover no-repeat;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination Dots -->
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex items-center gap-3 z-50">
+    <button class="dot-btn w-12 h-2.5 bg-white rounded-full shadow-[0_0_10px_rgba(255,255,255,0.3)]" onclick="goToSlide(0)"></button>
+    <button class="dot-btn w-2.5 h-2.5 bg-white/30 hover:bg-white/50 rounded-full" onclick="goToSlide(1)"></button>
+    <button class="dot-btn w-2.5 h-2.5 bg-white/30 hover:bg-white/50 rounded-full" onclick="goToSlide(2)"></button>
+  </div>
+</div>
+<div class="w-full bg-black py-20 flex flex-col items-center font-['SF_Pro']">
+    
+    <!-- 1. THANH ĐIỀU HƯỚNG TABS -->
+    <div class="max-w-[1440px] w-full flex justify-center mb-16 px-10">
+        <div class="flex bg-white rounded-[12px] p-1 shadow-lg border border-gray-100">
+            <!-- Nút Bao Bì -->
+            <button onclick="switchTab('bao-bi')" id="btn-bao-bi" 
+                class="tab-btn px-8 py-3 rounded-[10px] font-bold text-[16px] transition-all duration-300 bg-[#C6FF76] text-black">
+                Ấn Phẩm Bao Bì
+            </button>
+            <!-- Nút Marketing -->
+            <button onclick="switchTab('marketing')" id="btn-marketing" 
+                class="tab-btn px-8 py-3 rounded-[10px] font-bold text-[16px] transition-all duration-300 text-gray-400">
+                Ấn Phẩm Marketing & Truyền Thông
+            </button>
+            <!-- Nút Cẩm Nang -->
+            <button onclick="switchTab('cam-nang')" id="btn-cam-nang" 
+                class="tab-btn px-8 py-3 rounded-[10px] font-bold text-[16px] transition-all duration-300 text-gray-400">
+                Cẩm Nang Thương Hiệu
+            </button>
+        </div>
+    </div>
+
+    <!-- 2. KHU VỰC HIỂN THỊ NỘI DUNG -->
+    <div class="tab-content-container max-w-[1440px] w-full px-10">
+        
+        <!-- NHÓM 1: ẤN PHẨM BAO BÌ (Bố cục so le) -->
+        <div id="tab-bao-bi" class="tab-content active flex flex-row items-start justify-center gap-8">
+            <!-- 1. Hộp Giấy -->
+            <div class="flex flex-col bg-white rounded-[24px] overflow-hidden w-[284px] h-[408px] shrink-0 shadow-xl">
+                <div class="w-full h-[70%] bg-[#B29087]"><img src="/Code Landing Page In Ấn/image/banner/hộp giấy hero_Artboard 2 copy 2 1.png" class="w-full h-full object-cover"></div>
+                <div class="h-[30%] p-5 flex flex-col justify-between text-left">
+                    <div><h3 class="text-black font-bold text-[20px] uppercase leading-tight">Hộp Giấy</h3><p class="text-[#959595] text-[14px] uppercase font-medium">Packaging Boxes</p></div>
+                    <div class="flex justify-end"><button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2 px-4 rounded-full">Xem chi tiết ➔</button></div>
+                </div>
+            </div>
+            <!-- 2. Túi Giấy (So le mt-20) -->
+            <div class="flex flex-col bg-white rounded-[24px] overflow-hidden w-[284px] h-[408px] shrink-0 shadow-xl mt-20">
+                <div class="w-full h-[70%] bg-[#F5E6E0]"><img src="/Code Landing Page In Ấn/image/banner/Catalogue-02 1.png" class="w-full h-full object-cover"></div>
+                <div class="h-[30%] p-5 flex flex-col justify-between text-left">
+                    <div><h3 class="text-black font-bold text-[20px] uppercase leading-tight">Túi Giấy</h3><p class="text-[#959595] text-[14px] uppercase font-medium">Paper Bag</p></div>
+                    <div class="flex justify-end"><button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2 px-4 rounded-full">Xem chi tiết ➔</button></div>
+                </div>
+            </div>
+            <!-- 3. Nhãn Mác -->
+            <div class="flex flex-col bg-white rounded-[24px] overflow-hidden w-[284px] h-[408px] shrink-0 shadow-xl">
+                <div class="w-full h-[70%] bg-gray-200"><img src="/Code Landing Page In Ấn/image/banner/Catalogue-02 1 (1).png" class="w-full h-full object-cover"></div>
+                <div class="h-[30%] p-5 flex flex-col justify-between text-left">
+                    <div><h3 class="text-black font-bold text-[20px] uppercase leading-tight">Nhãn Mác</h3><p class="text-[#959595] text-[14px] uppercase font-medium">Product Tag</p></div>
+                    <div class="flex justify-end"><button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2 px-4 rounded-full">Xem chi tiết ➔</button></div>
+                </div>
+            </div>
+            <!-- 4. Nhãn Dán (So le mt-20) -->
+            <div class="flex flex-col bg-white rounded-[24px] overflow-hidden w-[284px] h-[408px] shrink-0 shadow-xl mt-20">
+                <div class="w-full h-[70%] bg-white border-b border-gray-100"><img src="/Code Landing Page In Ấn/image/banner/Nhãn Dán-05 1.png" class="w-full h-full object-cover"></div>
+                <div class="h-[30%] p-5 flex flex-col justify-between text-left">
+                    <div><h3 class="text-black font-bold text-[20px] uppercase leading-tight">Nhãn Dán</h3><p class="text-[#959595] text-[14px] uppercase font-medium">Product Sticker</p></div>
+                    <div class="flex justify-end"><button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2 px-4 rounded-full">Xem chi tiết ➔</button></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NHÓM 2: MARKETING (7 khối đồng nhất) -->
+        <div id="tab-marketing" class="tab-content flex flex-wrap justify-center gap-6">
+            <div class="w-full flex flex-wrap justify-center gap-6">
+                <!-- 1. Tờ Rơi -->
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#E3D2C1]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Tờ Rơi</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Flyer</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <!-- 2. Tờ Gấp -->
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#D1D5DB]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Tờ Gấp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Brochure</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <!-- 3. Vé -->
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#C4A484]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Vé</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Sticker</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <!-- 4. Voucher -->
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#F3F4F6]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Voucher</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Voucher</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#F3F4F6]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Voucher</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Voucher</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#F3F4F6]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Voucher</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Voucher</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#F3F4F6]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Voucher</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Voucher</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Hàng 2: Thực đơn, Áp phích, Cẩm nang (Tự code lặp lại 3 khối này) -->
+        </div>
+
+        <!-- NHÓM 3: CẨM NANG (7 khối đồng nhất chuẩn ảnh mẫu b02898.png) -->
+        <div id="tab-cam-nang" class="tab-content flex flex-wrap justify-center gap-6">
+            <div class="w-full flex flex-wrap justify-center gap-6">
+                <!-- 1. Danh Thiếp -->
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-[24px] overflow-hidden shadow-md w-[310px] h-[440px] shrink-0">
+                    <div class="w-full h-[70%] bg-[#001DBC]"><img src="LINK_ANH" class="w-full h-full object-cover"></div>
+                    <div class="h-[30%] p-6 flex flex-row justify-between items-end text-left">
+                        <div><h3 class="text-black font-bold text-[20px] uppercase">Danh Thiếp</h3><p class="text-[#959595] text-[14px] uppercase mt-1">Business Card</p></div>
+                        <button class="bg-[#C6FF76] text-black text-[13px] font-bold py-2.5 px-5 rounded-full">Xem chi tiết ➔</button>
+                    </div>
+                </div>
+                <!-- 2. Giấy tiêu đề... (Tự code lặp lại 6 khối khác) -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- chi phí giá gói -->
+  <div id ="pricing-section" class="max-w-[1280px] w-full mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-stretch">
+      
+      <div class="relative border border-[#E8E1D3] rounded-[32px] p-8 pt-16 flex flex-col bg-black h-full">
+        
+        <div class="absolute -top-[20px] left-8 bg-[#E8E1D3] text-black px-6 py-2.5 rounded-full text-[18px] font-bold leading-none shadow-md">
+          GÓI CHUẨN
+        </div>
+        
+        <p class="text-[14px] text-white/80 font-normal leading-relaxed mb-6">
+          Phù hợp doanh nghiệp mới (SME)<br>hoặc sản phẩm thử nghiệm
+        </p>
+        
+        <div class="flex items-baseline mb-8 border-b border-white/10 pb-6">
+          <span class="text-[36px] xl:text-[40px] font-bold text-[#E8E1D3] tracking-[-0.84px] leading-none">4.000.000đ</span>
+          <span class="text-[18px] font-medium text-[#E8E1D3] ml-1">/tháng</span>
+        </div>
+
+        <ul class="flex flex-col space-y-5 flex-grow text-left">
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#E8E1D3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#E8E1D3" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-[#E8E1D3]">6 - 8 mẫu thiết kế mỗi tháng</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Designer kinh nghiệm, hỗ trợ tận tâm</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Mẫu mã sáng tạo, đảm bảo thẩm mỹ; không giới hạn chỉnh sửa</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Thời gian gửi mẫu: 1 - 2 ngày</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Quy trình làm việc chuyên nghiệp</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Hợp đồng 1 năm, thanh toán theo quý</span>
+          </li>
+        </ul>
+        
+        <p class="mt-8 pt-0 text-[12px] text-white/40 leading-relaxed italic text-left">
+          *Áp dụng tối đa 15 trang/tháng cho profile,<br>catalogue, hồ sơ năng lực,...
+        </p>
+      </div>
+
+      <div class="relative border border-[#A8E6CF] rounded-[32px] p-8 pt-16 flex flex-col bg-black h-full">
+        
+        <div class="absolute -top-[20px] left-8 bg-[#A8E6CF] text-black px-6 py-2.5 rounded-full text-[18px] font-bold leading-none shadow-md">
+          GÓI PRO
+        </div>
+        
+        <p class="text-[14px] text-white/80 font-normal leading-relaxed mb-6">
+          Dành cho thương hiệu cần nâng cấp hình ảnh<br>& tăng khả năng bán hàng
+        </p>
+        
+        <div class="flex items-baseline mb-8 border-b border-white/10 pb-6">
+          <span class="text-[36px] xl:text-[40px] font-bold text-[#A8E6CF] tracking-[-0.84px] leading-none">7.000.000đ</span>
+          <span class="text-[18px] font-medium text-[#A8E6CF] ml-1">/tháng</span>
+        </div>
+
+        <ul class="flex flex-col space-y-5 flex-grow text-left">
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#A8E6CF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#A8E6CF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-[#A8E6CF]">12 - 15 mẫu thiết kế mỗi tháng</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Designer giàu kinh nghiệm, hiểu insight khách hàng</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Mẫu mã sáng tạo, định hướng rõ ràng; không giới hạn chỉnh sửa</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Thời gian gửi mẫu: 1 - 2 ngày</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Ưu đãi 5% khi đặt in ấn</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Quy trình làm việc chuyên nghiệp</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="text-[15px] font-[590] leading-snug text-white/90">Hợp đồng 1 năm, thanh toán theo quý</span>
+          </li>
+        </ul>
+        
+        <p class="mt-8 pt-4 text-[12px] text-white/40 leading-relaxed italic text-left">
+          *Áp dụng tối đa 25 trang/tháng cho profile,<br>catalogue, hồ sơ năng lực,...
+        </p>
+      </div>
+
+      <div class="relative border border-[#C3AED6] rounded-[32px] p-8 pt-16 flex flex-col bg-black h-full">
+        
+        <div class="absolute -top-[20px] left-8 bg-[#C3AED6] text-black px-6 py-2.5 rounded-full text-[18px] font-bold leading-none shadow-md">
+          GÓI VIP
+        </div>
+        
+        <p class="text-[14px] text-white/80 font-normal leading-relaxed mb-6">
+          Giải pháp toàn diện cho thương hiệu<br>phát triển dài hạn
+        </p>
+        
+        <div class="flex items-baseline mb-8 border-b border-white/10 pb-6">
+          <span class="text-[36px] xl:text-[42px] font-[700] text-[#E9D3FF] tracking-[-0.84px] leading-none [text-shadow:0_4px_4px_rgba(0,0,0,0.25)] [-webkit-text-stroke:1px_#000]">
+            10.000.000đ
+          </span>
+          <span class="text-[18px] xl:text-[24px] font-[700] tracking-[-0.48px] text-[#E9D3FF] ml-1">/tháng</span>
+        </div>
+
+        <ul class="flex flex-col space-y-5 flex-grow text-left">
+          <li class="flex items-start gap-3">
+            <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="url(#paint0_linear_1)" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="url(#paint1_linear_1)" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="paint0_linear_1" x1="2.32" y1="13.43" x2="22.0" y2="13.39" gradientUnits="userSpaceOnUse"><stop stop-color="#E9D3FF"/><stop offset="1" stop-color="#CE9DFE"/></linearGradient>
+                <linearGradient id="paint1_linear_1" x1="8.22" y1="8.86" x2="22.0" y2="8.83" gradientUnits="userSpaceOnUse"><stop stop-color="#E9D3FF"/><stop offset="1" stop-color="#CE9DFE"/></linearGradient>
+              </defs>
+            </svg>
+            <span class="text-[16px] font-[590] leading-snug text-[#E9D3FF]">20 - 25 mẫu thiết kế mỗi tháng</span>
+          </li>
+          <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Đội ngũ designer giỏi và giàu kinh nghiệm</span>
+  </li>
+  <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Mẫu mã sáng tạo, linh hoạt thay đổi designer theo từng dự án (25+ nhân sự); không giới hạn chỉnh sửa</span>
+  </li>
+  <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Thời gian gửi mẫu: 24h (yêu cầu đơn giản); 1 - 2 ngày (yêu cầu nâng cao)</span>
+  </li>
+  <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Ưu đãi 10% khi đặt in ấn</span>
+  </li>
+  <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Quy trình làm việc chuyên nghiệp, họp triển khai 1 - 2 lần/tháng</span>
+  </li>
+  <li class="flex items-start gap-3">
+    <svg class="w-6 h-6 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20.4006 9.73817C21.4669 10.8044 22 11.3375 22 12C22 12.6624 21.4669 13.1956 20.4006 14.2618C19.6838 14.9786 19.4637 15.4414 19.4637 16.4479C19.4637 17.2444 19.6182 18.3776 18.9905 19C18.3678 19.6175 17.2393 19.4637 16.4479 19.4637C15.4765 19.4637 15.0087 19.6537 14.3154 20.347C13.7251 20.9374 12.9337 22 12 22C11.0663 22 10.2749 20.9374 9.68457 20.347C8.99128 19.6537 8.52349 19.4637 7.55206 19.4637C6.76068 19.4637 5.63218 19.6175 5.00949 19C4.38181 18.3776 4.53628 17.2444 4.53628 16.4479C4.53628 15.4414 4.31616 14.9786 3.59938 14.2618C2.53314 13.1956 2.00002 12.6624 2 12C2.00001 11.3375 2.53312 10.8044 3.59935 9.73817C4.2392 9.09832 4.53628 8.46428 4.53628 7.55206C4.53628 6.76065 4.38249 5.63214 5 5.00944C5.62243 4.38178 6.7556 4.53626 7.55208 4.53626C8.46427 4.53626 9.09832 4.2392 9.73815 3.59937C10.8044 2.53312 11.3375 2 12 2C12.6625 2 13.1956 2.53312 14.2618 3.59937M18.9905 19H19" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 10.3077C8 10.3077 10.25 10 12 14C12 14 17.0588 4 22 2" stroke="#FFFFFF" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="text-[16px] font-[590] leading-snug text-white">Hợp đồng 1 năm, thanh toán theo quý</span>
+  </li>
+        <p class="mt-2 text-[12px] text-white/40 leading-relaxed italic text-left relative pl-9">
+  *Áp dụng tối đa 30 trang/tháng cho profile,<br>catalogue, hồ sơ năng lực,...
+</p>
+      </div>
+
+    </div> <div class="w-full flex justify-center mt-12 mb-4">
+      <button class="flex h-[56px] px-8 justify-center items-center gap-[8px] rounded-[8px] bg-[#91F800] hover:bg-[#7ce000] shadow-[0_4px_4px_2px_rgba(0,0,0,0.25)] text-black font-bold text-[18px] transition-all hover:scale-105 active:scale-95">
+        <span>Nhận tư vấn miễn phí</span>
+        <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="11" fill="black"/>
+          <path d="M10.5 8L14.5 12L10.5 16" stroke="#91F800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Quy trình triễn khai -->
+ <section class="bg-black py-24 px-6 md:px-12 w-full font-sans">
+    <div class="max-w-[1400px] mx-auto">
+        
+        <div class="text-center mb-24">
+            <h3 class="text-white text-[24px] md:text-[32px] font-semibold tracking-tight mb-3">
+                Quy trình triển khai
+            </h3>
+            <h2 class="text-5xl md:text-[80px] font-bold leading-tight tracking-[-3.2px]">
+                <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block pb-2">
+                    Thiết Kế & In Ấn
+                </span>
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-x-6 gap-y-12">
+            
+            <div class="flex flex-col items-start text-left w-full">
+                <div class="text-[70px] xl:text-[80px] font-bold leading-none tracking-[-3.2px] mb-8">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block">01</span>
+                </div>
+                <div class="min-h-[76px] mb-4">
+                    <h4 class="text-white font-[590] text-[24px] xl:text-[28px] leading-[1.3]">
+                        Tiếp nhận yêu cầu<br>
+                        & khảo sát
+                    </h4>
+                </div>
+                <p class="text-[#959595] font-medium text-[16px] xl:text-[18px] leading-[1.4]">
+                    Đánh giá bao bì<br>
+                    hiện tại và xác định<br>
+                    mục tiêu của doanh<br>
+                    nghiệp
+                </p>
+            </div>
+
+            <div class="flex flex-col items-start text-left w-full">
+                <div class="text-[70px] xl:text-[80px] font-bold leading-none tracking-[-3.2px] mb-8">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block">02</span>
+                </div>
+                <div class="min-h-[76px] mb-4">
+                    <h4 class="text-white font-[590] text-[24px] xl:text-[28px] leading-[1.3]">
+                        Định hướng<br>
+                        chiến lược
+                    </h4>
+                </div>
+                <p class="text-[#959595] font-medium text-[16px] xl:text-[18px] leading-[1.4]">
+                    Định vị bao bì và<br>
+                    định hướng concept<br>
+                    thiết kế phù hợp thị<br>
+                    trường
+                </p>
+            </div>
+
+            <div class="flex flex-col items-start text-left w-full">
+                <div class="text-[70px] xl:text-[80px] font-bold leading-none tracking-[-3.2px] mb-8">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block">03</span>
+                </div>
+                <div class="min-h-[76px] mb-4">
+                    <h4 class="text-white font-[590] text-[24px] xl:text-[28px] leading-[1.3]">
+                        Thiết kế bộ nhận<br>
+                        diện thương hiệu
+                    </h4>
+                </div>
+                <p class="text-[#959595] font-medium text-[16px] xl:text-[18px] leading-[1.4]">
+                    Phát triển concept<br>
+                    thiết kế đảm bảo<br>
+                    tính nhận diện và<br>
+                    sáng tạo
+                </p>
+            </div>
+
+            <div class="flex flex-col items-start text-left w-full">
+                <div class="text-[70px] xl:text-[80px] font-bold leading-none tracking-[-3.2px] mb-8">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block">04</span>
+                </div>
+                <div class="min-h-[76px] mb-4">
+                    <h4 class="text-white font-[590] text-[24px] xl:text-[28px] leading-[1.3]">
+                        Sản xuất & in ấn
+                    </h4>
+                </div>
+                <p class="text-[#959595] font-medium text-[16px] xl:text-[18px] leading-[1.4]">
+                    Chọn công nghệ in,<br>
+                    màu sắc và chất<br>
+                    liệu phù hợp từng<br>
+                    nhu cầu
+                </p>
+            </div>
+
+            <div class="flex flex-col items-start text-left w-full">
+                <div class="text-[70px] xl:text-[80px] font-bold leading-none tracking-[-3.2px] mb-8">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block">05</span>
+                </div>
+                <div class="min-h-[76px] mb-4">
+                    <h4 class="text-white font-[590] text-[24px] xl:text-[28px] leading-[1.3]">
+                        Bàn giao & tối ưu
+                    </h4>
+                </div>
+                <p class="text-[#959595] font-medium text-[16px] xl:text-[18px] leading-[1.4]">
+                    Bàn giao file thiết<br>
+                    kế, sản phẩm hoàn<br>
+                    chỉnh và đề xuất cải<br>
+                    tiến
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- thẻ sành -->
+<section class="relative w-full min-h-[750px] flex items-center justify-center bg-black overflow-hidden px-6 font-sans">
+    
+    <div class="absolute inset-0 z-0 flex justify-around opacity-30 pointer-events-none px-4 md:px-20">
+        <div class="w-[2px] h-full bg-gradient-to-b from-transparent via-[#A3FF00]/40 to-transparent blur-sm"></div>
+        <div class="w-[4px] h-full bg-gradient-to-b from-transparent via-[#A3FF00]/60 to-transparent blur-lg"></div>
+        <div class="w-[1px] h-full bg-gradient-to-b from-transparent via-[#A3FF00]/20 to-transparent"></div>
+        <div class="w-[3px] h-full bg-gradient-to-b from-transparent via-[#A3FF00]/50 to-transparent blur-md"></div>
+        <div class="w-[2px] h-full bg-gradient-to-b from-transparent via-[#A3FF00]/30 to-transparent"></div>
+    </div>
+
+    <div class="relative z-10 max-w-[1200px] w-full flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-20">
+        
+        <div class="relative w-full md:w-1/2 flex justify-center transform translate-y-4">
+            <div class="relative transition-all duration-700 hover:scale-105 group">
+                <img src="/Code Landing Page In ẤN/image/banner/Thẻ Sành 3.svg" 
+                     alt="Thẻ Sành 3"
+                     style="width: 276px; height: 443px;"
+                     class="rounded-[20px] shadow-[0_20px_60px_rgba(0,0,0,0.9)] border border-white/10 rotate-[-13.251deg] object-cover relative z-10">
+                
+                <div class="absolute inset-0 bg-[#A3FF00]/15 blur-[100px] -z-10 rotate-[-13.251deg] opacity-60 group-hover:opacity-100 transition-opacity"></div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            
+            <div class="mb-8 self-center md:self-start">
+                <img src="/Code Landing Page In ẤN/image/banner/Rectangle.png" alt="SÀNH" 
+                     class="h-16 md:h-24 w-auto object-contain drop-shadow-[0_0_10px_rgba(255,255,255,0.1)]">
+            </div>
+            
+            <div class="max-w-full md:max-w-[881px] flex flex-col items-center md:items-start text-center md:text-left">
+                
+                <h1 class="text-[54px] md:text-[80px] font-bold leading-[105%] tracking-[-3.2px] mb-6 text-white uppercase">
+                    <span class="bg-gradient-to-r from-white to-[#C6FF76] bg-clip-text text-transparent inline-block pb-2">
+                        ƯU ĐÃI 15%
+                    </span>
+                </h1>
+                
+                <p class="text-white/90 text-xl md:text-[32px] font-[510] leading-[1.3] tracking-[-0.32px] mb-12">
+                    Dịch Vụ Tại OMedia Khi Có Thẻ Sành
+                </p>
+                
+                <a href="#" class="group flex items-center gap-4 bg-[#A3FF00] text-black font-bold py-4 px-10 rounded-full transition-all hover:bg-[#b4ff45] hover:shadow-[0_0_40px_rgba(163,255,0,0.5)]">
+                    <span class="text-lg uppercase tracking-tight">Sở hữu ngay</span>
+                    <span class="flex items-center justify-center w-7 h-7 bg-black rounded-full text-[#A3FF00] group-hover:translate-x-1.5 transition-transform duration-300">
+                        <svg class="w-4 h-4 ml-[1px]" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6 4l8 6-8 6V4z" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Câu hỏi thường gặp -->
+ <section class="w-full py-24 flex flex-col items-center bg-white font-sans px-6">
+    
+    <h2 class="w-full max-w-[1600px] mb-20 text-[#242424] text-center text-[50px] md:text-[80px] font-bold leading-[105%] tracking-[-3.2px]">
+        FAQs - Câu hỏi thường gặp
+    </h2>
+
+    <div class="flex flex-col gap-6 w-full max-w-[1600px]">
+        
+        <details class="group border border-black rounded-[20px] bg-white overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between list-none cursor-pointer px-8 md:px-[60px] py-[15px] md:h-[102px]">
+                <span class="text-[#242424] text-lg md:text-[24px] font-semibold">
+                    1. Bao lâu tôi nhận được thiết kế?
+                </span>
+                <div class="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-open:rotate-45">
+                    <div class="absolute w-6 h-[2px] bg-black"></div>
+                    <div class="absolute w-[2px] h-6 bg-black"></div>
+                </div>
+            </summary>
+            <div class="px-8 md:px-[60px] pb-8 text-gray-600 text-lg leading-relaxed">
+                Thời gian hoàn thiện thiết kế thường từ 3-5 ngày làm việc tùy vào độ phức tạp của yêu cầu.
+            </div>
+        </details>
+
+        <details class="group border border-black rounded-[20px] bg-white overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between list-none cursor-pointer px-8 md:px-[60px] py-[15px] md:h-[102px]">
+                <span class="text-[#242424] text-lg md:text-[24px] font-semibold">
+                    2. Tôi có thể chỉnh sửa thiết kế không?
+                </span>
+                <div class="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-open:rotate-45">
+                    <div class="absolute w-6 h-[2px] bg-black"></div>
+                    <div class="absolute w-[2px] h-6 bg-black"></div>
+                </div>
+            </summary>
+            <div class="px-8 md:px-[60px] pb-8 text-gray-600 text-lg leading-relaxed">
+                OMedia hỗ trợ chỉnh sửa cho đến khi bạn hoàn toàn hài lòng với concept cuối cùng.
+            </div>
+        </details>
+
+        <details class="group border border-black rounded-[20px] bg-white overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between list-none cursor-pointer px-8 md:px-[60px] py-[15px] md:h-[102px]">
+                <span class="text-[#242424] text-lg md:text-[24px] font-semibold">
+                    3. OMedia có hỗ trợ in ấn không?
+                </span>
+                <div class="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-open:rotate-45">
+                    <div class="absolute w-6 h-[2px] bg-black"></div>
+                    <div class="absolute w-[2px] h-6 bg-black"></div>
+                </div>
+            </summary>
+            <div class="px-8 md:px-[60px] pb-8 text-gray-600 text-lg leading-relaxed">
+                Có, chúng tôi cung cấp giải pháp trọn gói từ thiết kế đến in ấn chất lượng cao.
+            </div>
+        </details>
+
+        <details class="group border border-black rounded-[20px] bg-white overflow-hidden transition-all duration-300">
+            <summary class="flex items-center justify-between list-none cursor-pointer px-8 md:px-[60px] py-[15px] md:h-[102px]">
+                <span class="text-[#242424] text-lg md:text-[24px] font-semibold">
+                    4. OMedia có tư vấn chiến lược bao bì phù hợp với thương hiệu không?
+                </span>
+                <div class="relative w-8 h-8 flex items-center justify-center transition-transform duration-300 group-open:rotate-45">
+                    <div class="absolute w-6 h-[2px] bg-black"></div>
+                    <div class="absolute w-[2px] h-6 bg-black"></div>
+                </div>
+            </summary>
+            <div class="px-8 md:px-[60px] pb-8 text-gray-600 text-lg leading-relaxed">
+                Chúng tôi không chỉ thiết kế mà còn tư vấn định hướng bao bì dựa trên nghiên cứu thị trường và đối thủ cạnh tranh.
+            </div>
+        </details>
+
+    </div>
+</section>
+<!-- Để lại thông tin  -->
+ <section class="min-h-screen bg-white flex items-center justify-center p-6 md:p-12 font-sans">
+    <div class="max-w-7xl w-full flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+        
+        <div class="w-full lg:w-1/2 space-y-6">
+            <h1 id="brand-section" class="text-4xl md:text-6xl lg:text-[70px] font-bold leading-[1.1] text-black">
+                Biến hình ảnh thành<br>
+                ngôn ngữ thương hiệu<br>
+                <span class="inline-block px-4 py-1 bg-[#C6FF76] rounded-lg mt-2">RIÊNG BIỆT</span>
+            </h1>
+            <p class="text-gray-500 text-lg md:text-xl max-w-lg leading-relaxed">
+                Kết nối cùng OMedia để trải nghiệm đa dịch vụ: Bullet Time, TVC & Phim, Thiết kế & In ấn, Tổ chức sự kiện, Cho thuê thiết bị, Truyền thông thương hiệu
+            </p>
+        </div>
+
+        <div class="w-full lg:w-[550px]">
+            <div class="bg-white rounded-[32px] p-8 md:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.08)] border border-gray-100">
+                <h2 class="text-2xl md:text-3xl font-bold text-black mb-8">
+                    Để lại thông tin nhận tư vấn miễn phí tại đây!
+                </h2>
+
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-black font-bold mb-2">Họ và tên<span class="text-red-500">*</span></label>
+                        <input type="text" placeholder="Nhập họ và tên của bạn" 
+                               class="w-full px-5 py-4 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-[#C6FF76] transition-colors">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-black font-bold mb-2">Điện thoại<span class="text-red-500">*</span></label>
+                            <input type="text" placeholder="Nhập số điện thoại của bạn" 
+                                   class="w-full px-5 py-4 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-[#C6FF76] transition-colors">
+                        </div>
+                        <div>
+                            <label class="block text-black font-bold mb-2">Email</label>
+                            <input type="email" placeholder="Nhập email của bạn" 
+                                   class="w-full px-5 py-4 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-[#C6FF76] transition-colors">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-black font-bold mb-2">Dịch vụ<span class="text-red-500">*</span></label>
+                        <div class="relative">
+                            <select class="w-full px-5 py-4 bg-white border border-gray-200 rounded-xl appearance-none focus:outline-none focus:border-[#C6FF76] transition-colors cursor-pointer">
+                                <option value="" disabled selected>Chọn dịch vụ</option>
+                                <option value="bullet-time">Bullet Time</option>
+                                <option value="tvc">TVC & Phim</option>
+                                <option value="design">Thiết kế & In ấn</option>
+                            </select>
+                            <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                                <svg class="w-5 h-5 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-black font-bold mb-4">Bạn có Thẻ Sành (giảm giá 15%) chưa?<span class="text-red-500">*</span></label>
+                        <div class="flex gap-8">
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="radio" name="card" class="hidden peer">
+                                <div class="w-6 h-6 border-2 border-gray-300 rounded-full flex items-center justify-center peer-checked:border-black peer-checked:bg-black transition-all">
+                                    <div class="w-2 h-2 bg-white rounded-full opacity-0 peer-checked:opacity-100"></div>
+                                </div>
+                                <span class="text-black font-medium">Có</span>
+                            </label>
+                            <label class="flex items-center gap-3 cursor-pointer group">
+                                <input type="radio" name="card" class="hidden peer">
+                                <div class="w-6 h-6 border-2 border-gray-300 rounded-full flex items-center justify-center peer-checked:border-black peer-checked:bg-black transition-all">
+                                    <div class="w-2 h-2 bg-white rounded-full opacity-0 peer-checked:opacity-100"></div>
+                                </div>
+                                <span class="text-black font-medium">Chưa</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-black font-bold mb-2">Nội dung</label>
+                        <textarea placeholder="Nhập nội dung chi tiết" rows="3"
+                                  class="w-full px-5 py-4 bg-white border border-gray-200 rounded-xl focus:outline-none focus:border-[#C6FF76] transition-colors resize-none"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-4 bg-[#A3FF00] text-black font-bold rounded-xl hover:bg-[#8ee600] transition-all shadow-lg shadow-[#A3FF00]/20">
+                        Gửi thông tin
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="relative w-full mt-40">
+    <!-- 1. LOGO TRÒN NHÔ CAO: Đặt tuyệt đối so với footer, nằm ngoài khối overflow-hidden -->
+    <div class="absolute -top-[64px] left-1/2 -translate-x-1/2 z-20 w-32 h-32 bg-black rounded-full p-2 flex items-center justify-center border-4 border-white/5 shadow-2xl">
+        <div class="w-full h-full bg-black rounded-full flex items-center justify-center overflow-hidden">
+            <img src="/Code Landing Page In ẤN/image/Frame.svg" alt="Logo" class="w-[90%] h-[90%] object-contain">
+        </div>
+    </div>
+
+    <!-- 2. KHỐI NỀN ĐEN: Chứa ảnh background mờ và bo góc cực đại -->
+    <div class="relative bg-black rounded-t-[100px] md:rounded-t-[180px] overflow-hidden z-10 min-h-[900px] md:min-h-[1149px] flex flex-col items-center pt-24 pb-12 px-6 md:px-20">
+        
+        <!-- Background Image với lớp phủ chuẩn 81% (rgba 0.81) -->
+        <div class="absolute inset-0 z-0 bg-cover bg-center" 
+             style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.81) 100%), 
+                    url('/Code Landing Page In ẤN/image/banner/Frame.png');">
+        </div>
+        
+        <!-- Nội dung phía trên lớp nền -->
+        <div class="relative z-10 w-full flex flex-col items-center">
+            
+            <!-- Thương hiệu & Slogan: Khoảng cách chuẩn mb-10 -->
+            <div class="text-center mt-12 mb-10">
+                <!-- Logo chữ OMEDIA màu xanh -->
+                <div class="mx-auto mb-6" 
+                     style="width: 250px; height: 68px; aspect-ratio: 125/34; 
+                            background: url('/Code Landing Page In ẤN/image/banner/image 199.png') transparent 50% / contain no-repeat;">
+                </div>
+
+                <!-- Slogan 2 dòng chuẩn Semibold 28px -->
+                <div class="flex flex-col items-center justify-center w-full max-w-4xl mx-auto space-y-1">
+                    <p class="text-white text-center font-['SF_Pro'] text-[20px] md:text-[28px] font-[590] leading-[130%] uppercase tracking-tight">
+                        CÔNG TY TRUYỀN THÔNG VÀ SẢN XUẤT PHIM QUẢNG CÁO
+                    </p>
+                    <p class="text-white text-center font-['SF_Pro'] text-[20px] md:text-[28px] font-[590] leading-[130%] uppercase tracking-tight">
+                        NỘI DUNG GIẢI TRÍ HÀNG ĐẦU VIỆT NAM
+                    </p>
+                </div>
+            </div>
+
+            <!-- Social Icons: gap-4, mb-20 -->
+            <div class="flex gap-4 mb-24 justify-center">
+                <!-- TikTok -->
+                <a href="#" class="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-black hover:scale-110 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48" fill="none">
+                        <path d="M39.9833 13.513C37.7733 13.513 35.7297 12.7921 34.0949 11.5807C32.2179 10.1909 30.8631 8.14708 30.3863 5.79855C30.2652 5.21885 30.2046 4.61686 30.1971 4H23.8772V20.9525L23.8697 30.2351C23.8697 32.7174 22.2197 34.8207 19.9415 35.5639C19.2755 35.7794 18.5641 35.8834 17.8223 35.8388C16.8687 35.7868 15.9831 35.5044 15.2036 35.051C13.5536 34.0849 12.441 32.3309 12.4107 30.3168C12.3653 27.1805 14.9462 24.6165 18.1402 24.6165C18.7684 24.6165 19.3739 24.7205 19.9415 24.8989V20.2687V18.6114C19.3436 18.5222 18.7381 18.4776 18.1175 18.4776C14.6208 18.4776 11.3511 19.9046 9.01243 22.476C7.24893 24.4158 6.18932 26.8981 6.02281 29.4993C5.81089 32.9106 7.08242 36.1584 9.5498 38.5515C9.91309 38.9008 10.2915 39.2278 10.6927 39.5326C12.8043 41.1304 15.3928 42 18.1175 42C18.7306 42 19.3436 41.9554 19.9415 41.8662C22.4846 41.4946 24.8309 40.3501 26.6852 38.5515C28.9634 36.3442 30.2198 33.4086 30.2349 30.2871L30.2046 16.4189C31.2869 17.2439 32.4752 17.9202 33.7543 18.4479C35.7373 19.2728 37.8414 19.6816 39.9985 19.6816V15.1778V13.5056C40.006 13.513 39.9833 13.513 39.9833 13.513Z" fill="#101010"/>
+                    </svg>
+                </a>
+
+                <!-- Facebook -->
+                <a href="#" class="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-black hover:scale-110 transition-transform">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 48 48" fill="none">
+                        <path d="M31.3422 26.9375L32.4062 20H25.75V15.5C25.75 13.6016 26.6781 11.75 29.6594 11.75H32.6875V5.84375C32.6875 5.84375 29.9406 5.375 27.3156 5.375C21.8359 5.375 18.25 8.69375 18.25 14.7125V20H12.1562V26.9375H18.25V43.7094C19.4734 43.9016 20.725 44 22 44C23.275 44 24.5266 43.8969 25.75 43.7094V26.9375H31.3422Z" fill="#101010"/>
+                    </svg>
+                </a>
+
+                <!-- Zalo -->
+                <a href="#" class="w-12 h-12 bg-white rounded-xl flex items-center justify-center hover:scale-110 transition-transform overflow-hidden">
+                    <img src="/Code Landing Page In ẤN/image/image 198.png" alt="Zalo" class="w-7 h-7 object-contain">
+                </a>
+            </div>
+
+            <!-- 3. GRID THÔNG TIN: Tự đo khoảng cách gap-16, border-t -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 w-full max-w-7xl border-t border-white/10 pt-16 mb-20 text-left">
+                <!-- Cột Liên hệ -->
+                <div class="space-y-6">
+                    <h3 class="text-[#91F800] text-3xl font-bold uppercase tracking-tight">Liên hệ</h3>
+                    <ul class="text-white/90 space-y-6 text-base md:text-lg">
+                        <li class="flex items-center gap-4 hover:text-[#91F800] transition-colors cursor-pointer">
+                            <i class="fas fa-phone-alt text-[#91F800]"></i> (+84) 93 728 55 88
+                        </li>
+                        <li class="flex items-center gap-4 hover:text-[#91F800] transition-colors cursor-pointer">
+                            <i class="fas fa-envelope text-[#91F800]"></i> ceo@omedia.art
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <i class="fas fa-map-marker-alt text-[#91F800] mt-1.5"></i> 
+                            <span class="leading-relaxed">Trụ sở: 47-49 Nguyễn Văn Kình, Phường Cát Lái,<br>TP. Thủ Đức, HCM</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cột Dịch vụ -->
+                <div class="space-y-6">
+                    <h3 class="text-[#91F800] text-3xl font-bold uppercase tracking-tight">Dịch vụ</h3>
+                    <div class="grid grid-cols-2 gap-4 text-white/90 text-base md:text-lg font-medium">
+                        <ul class="space-y-5">
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors">Bullet Time</li>
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors">TVC & Phim</li>
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors text-nowrap">Thiết kế & In ấn</li>
+                        </ul>
+                        <ul class="space-y-5">
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors text-nowrap">Cho Thuê Thiết Bị</li>
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors text-nowrap">Tổ Chức Sự Kiện</li>
+                            <li class="hover:text-[#91F800] cursor-pointer transition-colors text-nowrap">Truyền Thông</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cột Về chúng tôi -->
+                <div class="space-y-6">
+                    <h3 class="text-[#91F800] text-3xl font-bold uppercase tracking-tight">Về chúng tôi</h3>
+                    <ul class="text-white/90 space-y-5 text-base md:text-lg font-medium">
+                        <li class="hover:text-[#91F800] cursor-pointer transition-colors">Giới Thiệu</li>
+                        <li class="hover:text-[#91F800] cursor-pointer transition-colors">Blog</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 4. COPYRIGHT: Căn trái chuẩn ảnh -->
+            <div class="w-full text-left border-t border-white/5 pt-8">
+                <p class="text-white/30 text-sm tracking-wide">Bản quyền © 2025. Đã đăng ký mọi quyền.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+        <!-- ---------- -->
+        </div>
+    </section>
+    <script>
+        const section = document.getElementById('toggle-section');
+        const btn = document.getElementById('toggle-btn');
+        const circle = document.getElementById('toggle-circle');
+        const prob = document.getElementById('content-problem');
+        const sol = document.getElementById('content-solution');
+        const label = document.getElementById('toggle-label');
+
+        let isSolution = false;
+
+        btn.addEventListener('click', () => {
+            isSolution = !isSolution;
+
+            if (isSolution) {
+                // Chuyển sang Giải pháp (Sáng)
+                section.classList.replace('bg-[#101010]', 'bg-white');
+                circle.classList.replace('translate-x-0', 'translate-x-10');
+                circle.classList.replace('bg-gray-500', 'bg-[#91F800]');
+                circle.innerHTML = '<img src="/Code Landing Page In ẤN/image/Logo OMedia-inấn 1.png" class="w-full h-full object-contain rounded-full" alt="Logo">';
+                btn.classList.replace('bg-[#333]', 'bg-black');
+
+                prob.classList.replace('block', 'hidden');
+                sol.classList.replace('hidden', 'block');
+
+                label.innerText = 'OMedia là giải pháp!';
+                label.classList.replace('text-gray-500', 'text-black');
+            } else {
+                // Quay lại Vấn đề (Tối)
+                section.classList.replace('bg-white', 'bg-[#101010]');
+                circle.classList.replace('translate-x-10', 'translate-x-0');
+                circle.classList.replace('bg-[#91F800]', 'bg-gray-500');
+               circle.innerHTML = `
+   <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+<rect width="80" height="80" rx="40" fill="#959595"/>
+<rect width="80" height="80" rx="40" fill="black" fill-opacity="0.2"/>
+<path d="M71 39.5243C71 55.8034 59.81 69 46.0283 69L44.2979 69C47.9593 67.584 51.2145 65.258 54.0119 62.2752C54.4696 61.7691 54.8759 61.263 55.3336 60.7084C56.2489 59.5454 57.1128 58.2802 57.8765 56.9664C58.5887 55.7012 59.2495 54.3363 59.8589 52.9228C61.0288 50.0396 61.8927 46.8549 62.2501 43.5193L62.2501 43.3685C62.4018 42.1544 62.5047 40.8917 62.5047 39.6776C62.5047 38.6655 62.4533 37.707 62.353 36.6948C61.2345 26.228 54.2151 18.3428 46.0257 18.3428C44.1436 18.3428 42.3129 18.7466 40.5824 19.5057C34.0207 22.4886 29.5956 30.5783 29.5956 39.6776C29.5956 47.9693 33.3085 55.4532 38.9549 58.9396C38.9034 58.9396 38.852 58.9907 38.7517 58.9907C38.3969 59.093 38.0395 59.1926 37.6333 59.2438C37.5304 59.2438 37.4301 59.2949 37.3273 59.2949C36.8182 59.346 36.3605 59.3971 35.8514 59.3971C27.968 59.3971 21.4577 51.1566 21 40.7409L21 39.5268C21 25.4714 29.4439 13.3381 41.089 10.5572C42.6651 10.2045 44.3441 10 46.0231 10C59.8049 9.99999 70.9949 23.2477 70.9949 39.5268L71 39.5243Z" fill="black"/>
+<path d="M59.9974 39.523C59.9974 40.7882 59.9461 41.9996 59.7945 43.2137L59.7945 43.2648C58.4228 55.8525 50.4444 65.9636 39.9281 68.4428C38.3021 68.8466 36.6761 69 34.9987 69C21.2279 69 10 55.804 10 39.5256C10 23.2471 21.2278 10 34.9987 10L36.7249 10C36.319 10.1508 35.8618 10.3527 35.4534 10.5572C34.8446 10.8102 34.2846 11.1144 33.6758 11.4671C30.9324 13.0338 28.4434 15.1066 26.3088 17.6344C25.8002 18.1916 25.3429 18.7973 24.9371 19.4031C24.4798 20.0088 24.074 20.6682 23.6656 21.274C23.2597 21.9309 22.8513 22.5877 22.5482 23.2957C22.1423 24.0037 21.7853 24.7117 21.531 25.4196C21.1765 26.1276 20.9222 26.8356 20.6679 27.5436C20.4136 28.2004 20.2106 28.8573 20.0077 29.5653C19.0932 32.6988 18.5846 36.0879 18.5846 39.5256L18.5846 40.7907C19.0419 52.1158 26.2574 61.0129 35.0475 61.0129C36.8765 61.0129 38.7054 60.609 40.4855 59.7988C47.0409 56.8161 51.4616 48.7267 51.4616 39.6763C51.4616 31.3851 47.7524 23.9014 42.1629 20.3641C42.6715 20.2133 43.2289 20.1111 43.7375 20.0599C44.2461 19.9603 44.7033 19.9603 45.2119 19.9603C52.5276 19.9603 58.88 27.1909 59.8973 36.7959L59.8973 36.9467C59.9486 37.8054 60 38.6642 60 39.5255L59.9974 39.523Z" fill="black"/>
+                       </svg> 
+`;
+                btn.classList.replace('bg-black', 'bg-[#333]');
+
+                prob.classList.replace('hidden', 'block');
+                sol.classList.replace('block', 'hidden');
+
+                label.innerText = 'Xem ngay giải pháp →';
+                label.classList.replace('text-black', 'text-gray-500');
+            }
+        }); 
+    </script>
+
+    <script>
+  let currentSlide = 1;
+  const totalSlides = 3;
+
+  setInterval(() => {
+    // Reset tất cả các slide
+    for (let i = 1; i <= totalSlides; i++) {
+      document.getElementById(`slide${i}`).classList.remove('translate-x-0', '-translate-x-full');
+    }
+
+    // Chuyển slide tiếp theo
+    for (let i = 1; i <= totalSlides; i++) {
+      if (i === currentSlide) {
+        document.getElementById(`slide${i}`).classList.add('translate-x-0');
+      } else {
+        document.getElementById(`slide${i}`).classList.add('-translate-x-full');
+      }
+    }
+
+    currentSlide = currentSlide % totalSlides + 1;
+  }, 3000);
+</script>
+<script>
+  // Lấy các phần tử DOM
+  const track = document.getElementById('sliderTrack');
+  const dots = document.querySelectorAll('.dot-btn');
+  const totalSlideDistance = dots.length;
+  let currentIndex = 0;
+  let autoPlayInterval;
+
+  // Hàm di chuyển slide
+  function goToSlide(index) {
+    currentIndex = index;
+    // Dịch chuyển thanh ngang theo %
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    // Cập nhật trạng thái hiển thị của các dấu chấm
+    dots.forEach((dot, i) => {
+      if (i === currentIndex) {
+        // Class của chấm đang Active (Thanh dài)
+        dot.className = 'dot-btn w-12 h-2.5 bg-white rounded-full shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-all duration-300';
+      } else {
+        // Class của chấm Inactive (Chấm tròn nhỏ)
+        dot.className = 'dot-btn w-2.5 h-2.5 bg-white/30 hover:bg-white/50 rounded-full cursor-pointer transition-all duration-300';
+      }
+    });
+
+    // Reset lại bộ đếm thời gian 3s mỗi khi người dùng chủ động click
+    resetAutoPlay();
+  }
+
+  // Hàm tự động chuyển sang slide tiếp theo
+  function nextSlide() {
+    let nextIndex = (currentIndex + 1) % totalSlides;
+    goToSlide(nextIndex);
+  }
+
+  // Khởi chạy vòng lặp 3000ms (3 giây)
+  function startAutoPlay() {
+    autoPlayInterval = setInterval(nextSlide, 3000);
+  }
+
+  // Khởi động lại vòng lặp để tránh bị chuyển slide đột ngột khi vừa click
+  function resetAutoPlay() {
+    clearInterval(autoPlayInterval);
+    startAutoPlay();
+  }
+
+  // Kích hoạt tự động chạy khi tải trang
+  startAutoPlay();
+</script>
+<!-- 4. JAVASCRIPT XỬ LÝ CHUYỂN TAB -->
+ <!-- JAVASCRIPT XỬ LÝ -->
+<script>
+function switchTab(tabName) {
+    // 1. Chuyển đổi class active để chạy hiệu ứng lướt
+    const contents = document.querySelectorAll('.tab-content');
+    contents.forEach(content => {
+        content.classList.remove('active');
+        if (content.id === 'tab-' + tabName) {
+            content.classList.add('active');
+        }
+    });
+
+    // 2. Chuyển màu Button chọn Tab
+    const buttons = document.querySelectorAll('.tab-btn');
+    buttons.forEach(btn => {
+        btn.classList.remove('bg-[#C6FF76]', 'text-black');
+        btn.classList.add('text-gray-400');
+    });
+
+    const activeBtn = document.getElementById('btn-' + tabName);
+    if (activeBtn) {
+        activeBtn.classList.add('bg-[#C6FF76]', 'text-black');
+        activeBtn.classList.remove('text-gray-400');
+    }
+}
+</script>
+   <style>
+    .animate-marquee {
+        /* Chạy tốc độ 20s, vì giờ độ dài mỗi Đoàn tàu là 12 logo */
+        animation: marquee 20s linear infinite; 
+        will-change: transform;
+    }
+
+    @keyframes marquee {
+        0% { transform: translateX(0%); }
+        /* ĐIỂM SỐNG CÒN: Dịch chuyển chính xác -100% chiều dài của bản thân nó */
+        100% { transform: translateX(-100%); } 
+    }
+    /* Container chứa nội dung tab */
+    .tab-content-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* Hiệu ứng cho các khối nội dung */
+    .tab-content {
+        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        transform: translateX(50px); /* Lướt từ phải qua */
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+    }
+
+    /* Trạng thái khi Tab được kích hoạt */
+    .tab-content.active {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto;
+        position: relative;
+        visibility: visible;
+    }
+    /* Container chứa các nội dung tab */
+    .tab-content-container {
+        position: relative;
+        width: 100%;
+        min-height: 850px; /* Đảm bảo đủ chiều cao cho bố cục so le */
+    }
+
+    /* Hiệu ứng lướt và ẩn hiện */
+    .tab-content {
+        transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        opacity: 0;
+        transform: translateX(40px); /* Lướt từ phải qua */
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+    }
+
+    /* Khi tab được kích hoạt */
+    .tab-content.active {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto;
+        position: relative;
+        visibility: visible;
+    }
+</style>
+</body>
+
+</html>
